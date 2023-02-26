@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --container-width:786px;
+
+}
+.main-container{
+    max-width:var(--container-width) ;
+    margin: 0 auto;
+}
+.main-heading{
+    text-align: center;
+    margin: 3rem auto;
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+.tictac{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tictac__item{
+    width: 30%;
+    border: 1px solid black;
+    margin: 3px;
+    height: 10vh;
+    padding: 1rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: black;
+    position: relative;
+}
+
+.icon{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.4rem;
+}
+
+/* .icon__tick{
+opacity: 0;
+}
+.icon__cross{
+opacity: 0;
+} */
+
+.btn{
+    background-color: black;
+    color: white;
+    padding:1rem 2rem;
+    margin: 2rem auto;
+    display: block;
+  
+
+}
